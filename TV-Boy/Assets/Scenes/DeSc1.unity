@@ -689,8 +689,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3e42c28d3f874fbfa327492e1d6989a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextScene:
-    m_Handle: 1
 --- !u!54 &1410135771
 Rigidbody:
   m_ObjectHideFlags: 0

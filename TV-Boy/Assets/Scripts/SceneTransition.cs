@@ -5,10 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class SceneTransition : MonoBehaviour {
 
-    public Scene nextScene;
     private void OnCollisionEnter(Collision other) {
         if (other.gameObject.tag == "Player") {
-            SceneManager.LoadScene(nextScene.name);
+            SceneManager.LoadScene("DeSc2");
         }
     }
 }
