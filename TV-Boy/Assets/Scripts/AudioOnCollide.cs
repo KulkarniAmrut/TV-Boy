@@ -17,7 +17,7 @@ public class AudioOnCollide : MonoBehaviour
          
         if (collide.gameObject.tag == "Player") {
             voSource.Play ();
-            //Destroy(gameObject);
+            Destroy(gameObject);
         }
          
     }
